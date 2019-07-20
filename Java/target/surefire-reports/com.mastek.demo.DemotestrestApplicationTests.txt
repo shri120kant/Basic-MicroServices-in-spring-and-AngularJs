@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.mastek.demo.DemotestrestApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.154 s <<< FAILURE! - in com.mastek.demo.DemotestrestApplicationTests
+testFindById(com.mastek.demo.DemotestrestApplicationTests)  Time elapsed: 0.048 s  <<< ERROR!
+com.fasterxml.jackson.core.JsonParseException: 
+Unrecognized token 'User': was expecting ('true', 'false' or 'null')
+ at [Source: (String)"User [user_name=shri120kant.g@gmail.com, password=123456]"; line: 1, column: 5]
+	at com.mastek.demo.DemotestrestApplicationTests.testFindById(DemotestrestApplicationTests.java:44)
+
